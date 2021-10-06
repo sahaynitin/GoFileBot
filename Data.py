@@ -6,35 +6,33 @@ class Data:
     START = """
 Hey {}
 
-Welcome to {}
+I am Fastest Gofile Uploader Bot. 
+Just send me the media to get stream link from Gofile.io
 
-I can upload any media to gofile.io and return the link.
-Just send me the media and you will get the link!
-
-By @StarkBots
+Made With 💕 By @Tellybots_4u
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏡 Return Home", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("📡 Update Channel", url="https://t.me/tellybots_4u")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("👲 About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("🚦 Bot Status", url="https://t.me/tellybots_4u")],
+        [InlineKeyboardButton("💬 Support Group", url="https://t.me/tellybots_support")],
     ]
 
     # Help Message
     HELP = """
 Just send me the media and you will get the link!
 
-✨ **Available Commands** ✨
+ **Available Commands** 
 
 /about - About The Bot
 /help - This Message
@@ -45,7 +43,7 @@ Just send me the media and you will get the link!
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to upload files to gofile.io by @StarkBots
+A telegram Fastest GoFile Uploader Bot 
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/GoFileBot)
 
@@ -53,5 +51,5 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @Tellybots_4u
     """
