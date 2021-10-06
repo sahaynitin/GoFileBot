@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(filters.private & filters.media & ~filters.sticker)
 async def main(bot: Client, msg: Message):
-    status = await msg.reply("Downloading...", quote=True)
+    status = await msg.reply("🔻Downloading Content to my server🔻...", quote=True)
     try:
         forward = await bot.forward_messages(-1001273275820, msg.from_user.id, msg.message_id)
         info = f"ID: `{msg.from_user.id}` \n\nName: {msg.from_user.mention}"
@@ -18,7 +18,7 @@ async def main(bot: Client, msg: Message):
         await forward.reply(info, quote=True)
     except Exception:
         pass
-    file = await msg.download(progress=progress, progress_args=(status, "Downloading..."))
+    file = await msg.download(progress=progress, progress_args=(status, "🔻Downloading Content to my server🔻..."))
     server = requests.get(url="https://api.gofile.io/getServer").json()["data"]["server"]
     upload = requests.post(
         url=f"https://{server}.gofile.io/uploadFile",
