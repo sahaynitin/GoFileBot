@@ -45,7 +45,7 @@ Just send me the media and you will get the link!
 
 A telegram Fastest GoFile Uploader Bot 
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/GoFileBot)
+Source Code : [Click Here](https://t.me/tellybots_digital)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
