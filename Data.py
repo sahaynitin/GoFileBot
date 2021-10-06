@@ -7,7 +7,7 @@ class Data:
 Hey {}
 
 I am Fastest Gofile Uploader Bot. 
-Just send me the media to get stream link from Gofile.io
+Just send me the media to get stream link from Gofile Web
 
 Made With 💕 By @Tellybots_4u
     """
